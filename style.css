@@ -191,6 +191,11 @@ body {
     margin: 0 0 34px 0;
     width: 100%;
     border-radius: 0 ;
+    width: 375px;
+  }
+
+  .attribution {
+    position: relative;
   }
 
   .card2 {
@@ -201,7 +206,16 @@ body {
 
   .card1 {
     margin: 0;
-    padding: 0;
+    padding: 34pxpx;
+    width: 375px;
+  }
+
+  .paragraph {
+    max-width: 300px;
+  }
+
+  .sec2 {
+    width: 100%;
   }
 
 }
