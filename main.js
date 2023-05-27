@@ -7,7 +7,7 @@ const txtEmail = document.getElementById("txtEmail");
 const form = document.getElementById("form");
 const success = document.getElementById("success");
 const closeMsg = document.getElementById("closeMsg");
-
+const myEmail = document.getElementById("myEmail");
 closeMsg.addEventListener("click", () => {
   form.style.display = "flex";
   success.style.display = "none";
@@ -27,7 +27,8 @@ function verifyEmail(email) {
       txtEmail.removeChild(span);
     }
     form.style.display = "none";
-    success.style.display = "grid";
+    success.style.display = "flex";
+    myEmail.innerHTML = email.value;
     email.value = "";
   }
   else {
