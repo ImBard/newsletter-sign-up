@@ -86,8 +86,6 @@ I want to improve my abilities in css with semantic code and my design
 
 ## Author
 
-## Author
-
 - Github - [ImBard](https://www.github.com/imbard)
 - Frontend Mentor - [@ImBard](https://www.frontendmentor.io/profile/ImBard)
 - Twitter - [@imbard0](https://www.twitter.com/imbard0)
